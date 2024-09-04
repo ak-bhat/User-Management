@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    background-image: url('https://www.shutterstock.com/image-photo/low-angle-view-across-neatly-260nw-1608638383.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.center-div{
+    padding-top: 10%;
+}
+
+form{
+    padding: 0 3em;
+}
+
+.form-text{
+    font-size: .8em;
+    color: aliceblue;
+}
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+}
+
+.card text{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}

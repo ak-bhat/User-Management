@@ -1,0 +1,100 @@
+<%-include('header')-%>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand"
+                    style="font-family: 'Courier New', Courier, monospace; font-weight: bold; color: aliceblue;"
+                    href="#">SportsGully</a>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page">Live Matches</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex">
+                        <h5 class="me-5">
+                            <%=locals.user?user:"User"%>
+                        </h5>
+                        <a href="/route/logout"><button class="btn btn-outline-danger" type="submit">Logout</button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+
+        <div class="text-center mt-5 mb-5" id="login">
+            <div class="container w-5 border py-5 mt-5">
+                <h3>Welcome to No.1 Sports Page in the World</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card " style="width: 18rem;">
+                        <img src="https://st1.latestly.com/wp-content/uploads/2022/11/Virat-10-1.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text">C R I C K E T</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card " style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI4rdxyBfiVpTvc-yA3I0u0CBT3iKcz2ixyQ&s"
+                            class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text">F O O T B A L L</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card " style="width: 18rem;">
+                        <img src="https://images2.alphacoders.com/132/1323394.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text">T E N N I S</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card " style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR83ckGI7C11PEkk9QxwVyqLjIave0LmlQq_tH19vjC6Q&s"
+                            class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text">H O C K E Y</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+
+    <%-include('footer')-%>
